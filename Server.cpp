@@ -39,7 +39,7 @@ int main(int argc, char* argv[]) {
 		send(newConnection, msg, sizeof(msg), NULL);
 	}
 
-
+	int a = 1;
 	system("pause");
 	return 0;
 }
